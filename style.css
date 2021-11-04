@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image_principale{
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+header ul{
+position: relative;
+display: flex;
+}
+header ul li{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(44, 146, 141); 
+    border-bottom: 10px;
+    box-shadow: 10px;
+    border-radius: 30px;
+    
+}
+header ul li a{
+    display: inline-block;
+    margin-left: 70px;
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+    letter-spacing: 3px; 
+    transition: 00.5s;
+    
+}
+header ul li:hover a{
+    letter-spacing: 3px;
+    transform: translateY(-15px);
+
+
+}
+body{
+    background: url(https://media.gettyimages.com/photos/green-clothes-picture-id1316698419?s=2048x2048);
+    background-size: 100%;
+}
+
+
